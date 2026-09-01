@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "d8604eaaf282ae8feafbd71136f3acce81f56ebf",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-01T14:17:36.000Z",
       "message": "feat:Agregacion de mostrar Love-Love al inicio del partido",
-      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/d8604eaaf282ae8feafbd71136f3acce81f56ebf"
     },
     "stats": {
       "total": 17,
       "additions": 17,
       "deletions": 0,
+      "date": "2026-09-01"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-01T14:18:18.000Z",
+      "message": "feat: Refactorizacion de la clase Tennis",
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 11,
+      "deletions": 10,
       "date": "2026-09-01"
     },
     "coverage": 100,
