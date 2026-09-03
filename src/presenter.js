@@ -1,15 +1,19 @@
-import sumar from "./sumador";
+import Tennis from "./tennis.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const tennis = new Tennis();
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+const btnJugador1 = document.querySelector("#jugador1-btn");
+const btnJugador2 = document.querySelector("#jugador2-btn");
+const divMarcador = document.querySelector("#marcador-div");
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+divMarcador.innerHTML = "<p>" + tennis.obtenerScore() + "</p>";
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+btnJugador1.addEventListener("click", () => {
+  tennis.jugador1Anota();
+  divMarcador.innerHTML = "<p>" + tennis.obtenerScore() + "</p>";
+});
+
+btnJugador2.addEventListener("click", () => {
+  tennis.jugador2Anota();
+  divMarcador.innerHTML = "<p>" + tennis.obtenerScore() + "</p>";
 });

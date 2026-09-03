@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "685b5e96961dd0d8e5b8166e82350fed187cdb53",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-03T05:57:40.000Z",
       "message": "fix: Mostrar Game for Player 1 cuando los jugadores estan en Deuce y jugador 1 anota 2 veces seguidas",
-      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/685b5e96961dd0d8e5b8166e82350fed187cdb53"
     },
     "stats": {
       "total": 22,
       "additions": 13,
       "deletions": 9,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-03T06:06:56.000Z",
+      "message": "feat: Agregacion del index y presenter",
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 41,
+      "additions": 21,
+      "deletions": 20,
       "date": "2026-09-03"
     },
     "coverage": 100,
