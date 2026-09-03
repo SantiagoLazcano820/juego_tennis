@@ -452,9 +452,39 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a5a378c5f3db0667bde9e99e52941950a8be51ea",
     "commitName": "feat: Mostrar Deuce cuando jugador 1 anota 3 veces y jugador 2 anota 3 veces",
     "commitTimestamp": 1788412337723,
     "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788412447786,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788412543181,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788412575473,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar Advantage for Player 1 cuando jugador 1 anota 4 veces y jugador 2 anota 3 veces",
+    "commitTimestamp": 1788412650816,
+    "testId": 11
   }
 ]

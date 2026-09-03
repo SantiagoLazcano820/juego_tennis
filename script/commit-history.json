@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a5a378c5f3db0667bde9e99e52941950a8be51ea",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-03T05:12:17.000Z",
       "message": "feat: Mostrar Deuce cuando jugador 1 anota 3 veces y jugador 2 anota 3 veces",
-      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/a5a378c5f3db0667bde9e99e52941950a8be51ea"
     },
     "stats": {
       "total": 15,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-03T05:17:30.000Z",
+      "message": "feat: Mostrar Advantage for Player 1 cuando jugador 1 anota 4 veces y jugador 2 anota 3 veces",
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
