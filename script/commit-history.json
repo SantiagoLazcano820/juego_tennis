@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "266f37e0e7ff240474b3cde2175d9477e5b4d07f",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-03T03:00:55.000Z",
       "message": "feat: Agregar 15 cuando jugador 1 anota 1 vez",
-      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/266f37e0e7ff240474b3cde2175d9477e5b4d07f"
     },
     "stats": {
       "total": 24,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-03T03:15:12.000Z",
+      "message": "feat: Agregar 30 cuando jugador 1 anota 2 veces",
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 16,
+      "deletions": 5,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

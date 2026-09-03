@@ -4,14 +4,18 @@ class Tennis {
   }
 
   jugador1Anota() {
-    this.puntosJugador1 = 15;
+    this.puntosJugador1 += 1; 
   }
 
   obtenerScore() {
-    if (this.puntosJugador1 === 15) {
-      return "15 - Love";
-    }
-    return "Love - Love";
+    const tarjetaPuntos = {
+      0: "Love",
+      1: "15",
+      2: "30"
+    };
+
+    let scoreJ1 = tarjetaPuntos[this.puntosJugador1];
+    return `${scoreJ1} - Love`;
   }
 }
 

@@ -196,9 +196,55 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "266f37e0e7ff240474b3cde2175d9477e5b4d07f",
     "commitName": "feat: Agregar 15 cuando jugador 1 anota 1 vez",
     "commitTimestamp": 1788404456144,
     "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788404554495,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788404565083,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 3,
+    "numTotalTests": 4,
+    "timestamp": 1788405093764,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788405131605,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788405192601,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Agregar 30 cuando jugador 1 anota 2 veces",
+    "commitTimestamp": 1788405312115,
+    "testId": 3
   }
 ]
