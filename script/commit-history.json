@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "99fbbfda8f8588fedf6ec0e2d68a79ca0feb8a48",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-03T05:00:04.000Z",
       "message": "feat: Mostrar Game for Player 2 cuando jugador 2 anota 4 veces",
-      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/99fbbfda8f8588fedf6ec0e2d68a79ca0feb8a48"
     },
     "stats": {
       "total": 17,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-03T05:04:21.000Z",
+      "message": "feat: Mostrar 30 - 15 cuando jugador 1 anota 2 veces y jugador 2 anota 1 vez",
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

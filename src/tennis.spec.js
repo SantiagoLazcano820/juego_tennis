@@ -65,4 +65,12 @@ describe("Tennis", () => {
     tennis.jugador2Anota();
     expect(tennis.obtenerScore()).toEqual("Game for Player 2");
   });
+
+  it("deberia mostrar 30 - 15 cuando jugador 1 anota 2 veces y jugador 2 anota 1 vez" , () => {
+    let tennis = new Tennis();
+    tennis.jugador1Anota();
+    tennis.jugador1Anota();
+    tennis.jugador2Anota();
+    expect(tennis.obtenerScore()).toEqual("30 - 15");
+  });
 });

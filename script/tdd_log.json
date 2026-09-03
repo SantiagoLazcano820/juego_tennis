@@ -416,9 +416,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "99fbbfda8f8588fedf6ec0e2d68a79ca0feb8a48",
     "commitName": "feat: Mostrar Game for Player 2 cuando jugador 2 anota 4 veces",
     "commitTimestamp": 1788411604941,
     "testId": 8
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788411777434,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar 30 - 15 cuando jugador 1 anota 2 veces y jugador 2 anota 1 vez",
+    "commitTimestamp": 1788411861747,
+    "testId": 9
   }
 ]
