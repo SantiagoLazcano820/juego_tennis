@@ -1,7 +1,7 @@
 class Tennis {
   constructor() {
     this.puntosJugador1 = 0;
-    this.puntosJugador2 = "Love"; 
+    this.puntosJugador2 = 0;
   }
 
   jugador1Anota() {
@@ -9,7 +9,7 @@ class Tennis {
   }
 
   jugador2Anota() {
-    this.puntosJugador2 = "15"; 
+    this.puntosJugador2 += 1;
   }
 
   obtenerScore() {
@@ -25,7 +25,9 @@ class Tennis {
     };
 
     let scoreJ1 = tarjetaPuntos[this.puntosJugador1];
-    return `${scoreJ1} - ${this.puntosJugador2}`;
+    let scoreJ2 = tarjetaPuntos[this.puntosJugador2];
+
+    return `${scoreJ1} - ${scoreJ2}`;
   }
 }
 

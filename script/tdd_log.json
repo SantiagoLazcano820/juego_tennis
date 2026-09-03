@@ -342,9 +342,39 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "56af889b173c3b97f8624bf99abc204eab3762b3",
     "commitName": "feat: Mostrar Love - 15 cuando jugador 2 anota 1 vez",
     "commitTimestamp": 1788408811850,
     "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788408873543,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788409110078,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788409312685,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar Love - 30 cuando jugador 2 anota 2 vez",
+    "commitTimestamp": 1788409839769,
+    "testId": 6
   }
 ]
