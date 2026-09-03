@@ -542,9 +542,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "006a1ac3e344ba02a15724e65e830be64837c0d0",
     "commitName": "feat: Mostrar Game for Player 1 cuando los jugadores estan en Deuce y jugador 1 anota 2 veces seguidas",
     "commitTimestamp": 1788414948382,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: Mostrar Game for Player 1 cuando los jugadores estan en Deuce y jugador 1 anota 2 veces seguidas",
+    "commitTimestamp": 1788415060966,
+    "testId": 14
   }
 ]

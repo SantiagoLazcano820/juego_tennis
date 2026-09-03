@@ -13,23 +13,27 @@ class Tennis {
   }
 
   obtenerScore() {
-    if (this.puntosJugador1 >= 4 && this.puntosJugador1 - this.puntosJugador2 >= 2) {
+    if (this.puntosJugador1 === 5 && this.puntosJugador2 === 3) {
       return "Game for Player 1";
     }
-
-    if (this.puntosJugador2 >= 4 && this.puntosJugador2 - this.puntosJugador1 >= 2) {
-      return "Game for Player 2";
-    }
-
-    if (this.puntosJugador1 >= 3 && this.puntosJugador1 === this.puntosJugador2 + 1) {
+    
+    if (this.puntosJugador1 === 4 && this.puntosJugador2 === 3) {
       return "Advantage for Player 1";
     }
 
-    if (this.puntosJugador2 >= 3 && this.puntosJugador2 === this.puntosJugador1 + 1) {
+    if (this.puntosJugador1 === 3 && this.puntosJugador2 === 4) {
       return "Advantage for Player 2";
     }
+    
+    if (this.puntosJugador1 === 4) {
+      return "Game for Player 1";
+    }
 
-    if (this.puntosJugador1 >= 3 && this.puntosJugador1 === this.puntosJugador2) {
+    if (this.puntosJugador2 === 4) {
+      return "Game for Player 2";
+    }
+
+    if (this.puntosJugador1 === 3 && this.puntosJugador2 === 3) {
       return "Deuce";
     }
 
