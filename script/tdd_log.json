@@ -158,9 +158,47 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6980ee91c8a8e4fcd953771553ac600a91c818eb",
     "commitName": "feat: Refactorizacion de la clase Tennis",
     "commitTimestamp": 1788272298949,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788272371925,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788272608186,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788402797051,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788403687473,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Agregar 15 cuando jugador 1 anota 1 vez",
+    "commitTimestamp": 1788404456144,
+    "testId": 2
   }
 ]

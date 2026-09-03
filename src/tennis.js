@@ -1,10 +1,18 @@
-class Tennis{
-    constructor() {
+class Tennis {
+  constructor() {
+    this.puntosJugador1 = 0;
+  }
 
+  jugador1Anota() {
+    this.puntosJugador1 = 15;
+  }
+
+  obtenerScore() {
+    if (this.puntosJugador1 === 15) {
+      return "15 - Love";
     }
-    obtenerScore() {
-        return "Love - Love"
-    }
+    return "Love - Love";
+  }
 }
 
 export default Tennis;
