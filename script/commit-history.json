@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ccc8c54a1139afcbe1700e71abf91475539b1965",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-03T05:17:30.000Z",
       "message": "feat: Mostrar Advantage for Player 1 cuando jugador 1 anota 4 veces y jugador 2 anota 3 veces",
-      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/ccc8c54a1139afcbe1700e71abf91475539b1965"
     },
     "stats": {
       "total": 16,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-03T05:27:00.000Z",
+      "message": "feat: Mostrar Advantage for Player 2 cuando jugador 1 anota 3 veces y jugador 2 anota 4 veces",
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
