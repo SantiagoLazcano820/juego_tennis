@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "895d93e42129a50f39ae4e0099a59abc4ae5335f",
     "author": "Santiago Lazcano Quiroga",
     "commit": {
       "date": "2026-09-03T04:34:44.000Z",
       "message": "feat: Mostrar Love - 40 cuando jugador 2 anota 3 vez",
-      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/895d93e42129a50f39ae4e0099a59abc4ae5335f"
     },
     "stats": {
       "total": 8,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Lazcano Quiroga",
+    "commit": {
+      "date": "2026-09-03T05:00:04.000Z",
+      "message": "feat: Mostrar Game for Player 2 cuando jugador 2 anota 4 veces",
+      "url": "https://github.com/SantiagoLazcano820/juego_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -386,9 +386,39 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "895d93e42129a50f39ae4e0099a59abc4ae5335f",
     "commitName": "feat: Mostrar Love - 40 cuando jugador 2 anota 3 vez",
     "commitTimestamp": 1788410084493,
     "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788411266309,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788411504869,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788411532145,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar Game for Player 2 cuando jugador 2 anota 4 veces",
+    "commitTimestamp": 1788411604941,
+    "testId": 8
   }
 ]

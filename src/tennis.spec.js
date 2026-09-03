@@ -42,18 +42,27 @@ describe("Tennis", () => {
     expect(tennis.obtenerScore()).toEqual("Love - 15");
   });
 
-  it("deberia mostrar Love - 30 cuando jugador 2 anota 2 vez" , () => {
+  it("deberia mostrar Love - 30 cuando jugador 2 anota 2 veces" , () => {
     let tennis = new Tennis();
     tennis.jugador2Anota();
     tennis.jugador2Anota();
     expect(tennis.obtenerScore()).toEqual("Love - 30");
   });
 
-  it("deberia mostrar Love - 40 cuando jugador 2 anota 3 vez" , () => {
+  it("deberia mostrar Love - 40 cuando jugador 2 anota 3 veces" , () => {
     let tennis = new Tennis();
     tennis.jugador2Anota();
     tennis.jugador2Anota();
     tennis.jugador2Anota();
     expect(tennis.obtenerScore()).toEqual("Love - 40");
+  });
+
+  it("deberia mostrar Game for Player 2 cuando jugador 2 anota 4 veces" , () => {
+    let tennis = new Tennis();
+    tennis.jugador2Anota();
+    tennis.jugador2Anota();
+    tennis.jugador2Anota();
+    tennis.jugador2Anota();
+    expect(tennis.obtenerScore()).toEqual("Game for Player 2");
   });
 });

@@ -17,6 +17,10 @@ class Tennis {
       return "Game for Player 1";
     }
 
+    if (this.puntosJugador2 === 4) {
+      return "Game for Player 2";
+    }
+
     const tarjetaPuntos = {
       0: "Love",
       1: "15",
