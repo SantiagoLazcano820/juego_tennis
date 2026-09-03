@@ -8,10 +8,15 @@ class Tennis {
   }
 
   obtenerScore() {
+    if (this.puntosJugador1 === 4) {
+      return "Game for Player 1";
+    }
+
     const tarjetaPuntos = {
       0: "Love",
       1: "15",
-      2: "30"
+      2: "30",
+      3: "40"
     };
 
     let scoreJ1 = tarjetaPuntos[this.puntosJugador1];
