@@ -312,9 +312,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4c31b31c84a3ae378a18de507eccdc51ff1d4ac3",
     "commitName": "feat: Mostrar Game for Player 1 cuando jugador 1 anota 4 veces",
     "commitTimestamp": 1788406581059,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788406810717,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788407738874,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788408385702,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar Love - 15 cuando jugador 2 anota 1 vez",
+    "commitTimestamp": 1788408811850,
+    "testId": 5
   }
 ]
