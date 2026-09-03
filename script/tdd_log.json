@@ -430,9 +430,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2222b4410efb1a44fe1d7758ae484abdcc9e3151",
     "commitName": "feat: Mostrar 30 - 15 cuando jugador 1 anota 2 veces y jugador 2 anota 1 vez",
     "commitTimestamp": 1788411861747,
     "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788412218073,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788412228645,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar Deuce cuando jugador 1 anota 3 veces y jugador 2 anota 3 veces",
+    "commitTimestamp": 1788412337723,
+    "testId": 10
   }
 ]
